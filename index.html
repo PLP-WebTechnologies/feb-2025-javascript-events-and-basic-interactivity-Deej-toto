@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>JavaScript Fun Page</h1>
+
+  <!-- Button Interaction -->
+  <button id="colorBtn">Click Me!</button>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img src="https://via.placeholder.com/150" id="gallery-img" alt="Gallery Image">
+    <button id="nextImg">Next Image</button>
+  </div>
+
+  <!-- Accordion -->
+  <div class="accordion">
+    <button class="accordion-toggle">Show More</button>
+    <div class="accordion-content">
+      <p>This is hidden content that can be revealed!</p>
+    </div>
+  </div>
+
+  <!-- Form -->
+  <form id="signupForm">
+    <label>Email: <input type="email" id="email" required></label><br>
+    <label>Password: <input type="password" id="password" required></label><br>
+    <button type="submit">Submit</button>
+    <p id="formFeedback"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
